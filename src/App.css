@@ -1,0 +1,48 @@
+main {
+	background: linear-gradient(135deg, orange 60%, cyan);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.dice-container {
+	/* border: solid 1px black; */
+	width: 500px;
+  /* height: 500px; */
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 75px 75px;
+  
+
+}
+
+
+
+.dice-box {
+	border: solid 1px;
+	margin: 5px;
+  text-align-last: center;
+  background-color: bisque;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dice-box h2 {
+  font-size:x-large
+}
+
+.button {
+background: #5035FF;
+box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+border-radius: 3.81277px;
+width: 10%;
+    align-self: center;
+    cursor: pointer;
+}
+
+.die-held {
+  background-color: greenyellow;
+}
